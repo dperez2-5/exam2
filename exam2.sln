@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "exam2", "exam2\exam2.sqlproj", "{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicTelemetryRegister", "ClinicTelemetryRegister\ClinicTelemetryRegister.csproj", "{4A245E75-9DBE-4B0F-8E2D-E1C6F95A821A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC90CA7A-8271-44FE-9B2C-DE53EFC80F35}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4A245E75-9DBE-4B0F-8E2D-E1C6F95A821A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A245E75-9DBE-4B0F-8E2D-E1C6F95A821A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A245E75-9DBE-4B0F-8E2D-E1C6F95A821A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A245E75-9DBE-4B0F-8E2D-E1C6F95A821A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E47CDBD-5C82-4E44-86AA-B33C23B40CD0}
+	EndGlobalSection
+EndGlobal
