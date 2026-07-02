@@ -131,5 +131,15 @@ namespace ClinicTelemetryRegister
         {
             LoadDevices();
         }
+
+        private void dgvDevices_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.id = new System.Windows.Forms.TextBox();
             this.name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,24 +53,26 @@
             // 
             // id
             // 
-            this.id.Location = new System.Drawing.Point(90, 49);
+            this.id.Location = new System.Drawing.Point(103, 49);
             this.id.Name = "id";
-            this.id.Size = new System.Drawing.Size(156, 20);
+            this.id.Size = new System.Drawing.Size(143, 20);
             this.id.TabIndex = 0;
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(90, 75);
+            this.name.Location = new System.Drawing.Point(103, 75);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(156, 20);
+            this.name.Size = new System.Drawing.Size(143, 20);
             this.name.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Device ID";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -77,41 +80,47 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
+            this.label2.Size = new System.Drawing.Size(83, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Device Name";
             // 
             // wardnumber
             // 
-            this.wardnumber.Location = new System.Drawing.Point(90, 104);
+            this.wardnumber.Location = new System.Drawing.Point(103, 104);
             this.wardnumber.Name = "wardnumber";
-            this.wardnumber.Size = new System.Drawing.Size(125, 20);
+            this.wardnumber.Size = new System.Drawing.Size(112, 20);
             this.wardnumber.TabIndex = 4;
             // 
             // batterylife
             // 
-            this.batterylife.Location = new System.Drawing.Point(90, 130);
+            this.batterylife.Location = new System.Drawing.Point(103, 130);
             this.batterylife.Name = "batterylife";
-            this.batterylife.Size = new System.Drawing.Size(125, 20);
+            this.batterylife.Size = new System.Drawing.Size(112, 20);
             this.batterylife.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(12, 106);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Battery Life";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(12, 132);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 13);
+            this.label4.Size = new System.Drawing.Size(84, 13);
             this.label4.TabIndex = 7;
             this.label4.Text = "Ward Number";
             // 
@@ -121,7 +130,7 @@
             this.devicetype.Items.AddRange(new object[] {
             "Cardiac Monitor",
             "Oxygen Regulator"});
-            this.devicetype.Location = new System.Drawing.Point(90, 156);
+            this.devicetype.Location = new System.Drawing.Point(103, 156);
             this.devicetype.Name = "devicetype";
             this.devicetype.Size = new System.Drawing.Size(125, 21);
             this.devicetype.TabIndex = 8;
@@ -129,25 +138,29 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(12, 159);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 13);
+            this.label5.Size = new System.Drawing.Size(79, 13);
             this.label5.TabIndex = 9;
             this.label5.Text = "Device Type";
             // 
             // special
             // 
-            this.special.Location = new System.Drawing.Point(102, 183);
+            this.special.Location = new System.Drawing.Point(119, 183);
             this.special.Name = "special";
-            this.special.Size = new System.Drawing.Size(144, 20);
+            this.special.Size = new System.Drawing.Size(127, 20);
             this.special.TabIndex = 10;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(12, 186);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 13);
+            this.label6.Size = new System.Drawing.Size(101, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Special Attribute";
             // 
@@ -184,27 +197,32 @@
             // dgvDevices
             // 
             this.dgvDevices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDevices.Location = new System.Drawing.Point(252, 52);
+            this.dgvDevices.Location = new System.Drawing.Point(252, 49);
             this.dgvDevices.Name = "dgvDevices";
             this.dgvDevices.RowHeadersVisible = false;
             this.dgvDevices.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDevices.Size = new System.Drawing.Size(505, 310);
+            this.dgvDevices.Size = new System.Drawing.Size(505, 313);
             this.dgvDevices.TabIndex = 15;
+            this.dgvDevices.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDevices_CellContentClick);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(421, 29);
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(415, 24);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(138, 20);
+            this.label7.Size = new System.Drawing.Size(185, 25);
             this.label7.TabIndex = 16;
             this.label7.Text = "Medical Devices";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(769, 409);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dgvDevices);
