@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.id = new System.Windows.Forms.TextBox();
             this.name = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -53,14 +52,14 @@
             // 
             // id
             // 
-            this.id.Location = new System.Drawing.Point(103, 49);
+            this.id.Location = new System.Drawing.Point(103, 273);
             this.id.Name = "id";
             this.id.Size = new System.Drawing.Size(143, 20);
             this.id.TabIndex = 0;
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(103, 75);
+            this.name.Location = new System.Drawing.Point(103, 299);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(143, 20);
             this.name.TabIndex = 1;
@@ -70,7 +69,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 52);
+            this.label1.Location = new System.Drawing.Point(20, 276);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 13);
             this.label1.TabIndex = 2;
@@ -82,7 +81,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 78);
+            this.label2.Location = new System.Drawing.Point(20, 302);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 13);
             this.label2.TabIndex = 3;
@@ -90,14 +89,14 @@
             // 
             // wardnumber
             // 
-            this.wardnumber.Location = new System.Drawing.Point(103, 104);
+            this.wardnumber.Location = new System.Drawing.Point(134, 332);
             this.wardnumber.Name = "wardnumber";
             this.wardnumber.Size = new System.Drawing.Size(112, 20);
             this.wardnumber.TabIndex = 4;
             // 
             // batterylife
             // 
-            this.batterylife.Location = new System.Drawing.Point(103, 130);
+            this.batterylife.Location = new System.Drawing.Point(134, 358);
             this.batterylife.Name = "batterylife";
             this.batterylife.Size = new System.Drawing.Size(112, 20);
             this.batterylife.TabIndex = 5;
@@ -107,7 +106,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 106);
+            this.label3.Location = new System.Drawing.Point(20, 334);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 13);
             this.label3.TabIndex = 6;
@@ -118,7 +117,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(12, 132);
+            this.label4.Location = new System.Drawing.Point(20, 360);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 13);
             this.label4.TabIndex = 7;
@@ -130,9 +129,9 @@
             this.devicetype.Items.AddRange(new object[] {
             "Cardiac Monitor",
             "Oxygen Regulator"});
-            this.devicetype.Location = new System.Drawing.Point(103, 156);
+            this.devicetype.Location = new System.Drawing.Point(401, 273);
             this.devicetype.Name = "devicetype";
-            this.devicetype.Size = new System.Drawing.Size(125, 21);
+            this.devicetype.Size = new System.Drawing.Size(143, 21);
             this.devicetype.TabIndex = 8;
             // 
             // label5
@@ -140,7 +139,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 159);
+            this.label5.Location = new System.Drawing.Point(283, 276);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 13);
             this.label5.TabIndex = 9;
@@ -148,9 +147,9 @@
             // 
             // special
             // 
-            this.special.Location = new System.Drawing.Point(119, 183);
+            this.special.Location = new System.Drawing.Point(401, 299);
             this.special.Name = "special";
-            this.special.Size = new System.Drawing.Size(127, 20);
+            this.special.Size = new System.Drawing.Size(143, 20);
             this.special.TabIndex = 10;
             // 
             // label6
@@ -158,7 +157,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 186);
+            this.label6.Location = new System.Drawing.Point(283, 302);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(101, 13);
             this.label6.TabIndex = 11;
@@ -166,9 +165,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(147, 281);
+            this.button1.Location = new System.Drawing.Point(613, 269);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 23);
+            this.button1.Size = new System.Drawing.Size(99, 34);
             this.button1.TabIndex = 12;
             this.button1.Text = "Register Devices";
             this.button1.UseVisualStyleBackColor = true;
@@ -176,9 +175,9 @@
             // 
             // view
             // 
-            this.view.Location = new System.Drawing.Point(147, 310);
+            this.view.Location = new System.Drawing.Point(613, 309);
             this.view.Name = "view";
-            this.view.Size = new System.Drawing.Size(99, 23);
+            this.view.Size = new System.Drawing.Size(99, 33);
             this.view.TabIndex = 13;
             this.view.Text = "View Devices";
             this.view.UseVisualStyleBackColor = true;
@@ -186,9 +185,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(147, 339);
+            this.button3.Location = new System.Drawing.Point(613, 348);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 23);
+            this.button3.Size = new System.Drawing.Size(99, 30);
             this.button3.TabIndex = 14;
             this.button3.Text = "Delete Device";
             this.button3.UseVisualStyleBackColor = true;
@@ -196,12 +195,13 @@
             // 
             // dgvDevices
             // 
+            this.dgvDevices.BackgroundColor = System.Drawing.Color.White;
             this.dgvDevices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDevices.Location = new System.Drawing.Point(252, 49);
+            this.dgvDevices.Location = new System.Drawing.Point(70, 47);
             this.dgvDevices.Name = "dgvDevices";
             this.dgvDevices.RowHeadersVisible = false;
             this.dgvDevices.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDevices.Size = new System.Drawing.Size(505, 313);
+            this.dgvDevices.Size = new System.Drawing.Size(621, 216);
             this.dgvDevices.TabIndex = 15;
             this.dgvDevices.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDevices_CellContentClick);
             // 
@@ -210,7 +210,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(415, 24);
+            this.label7.Location = new System.Drawing.Point(290, 19);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(185, 25);
             this.label7.TabIndex = 16;
@@ -221,7 +221,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.BurlyWood;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(769, 409);
             this.Controls.Add(this.label7);

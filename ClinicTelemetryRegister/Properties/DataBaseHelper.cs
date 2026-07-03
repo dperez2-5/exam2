@@ -9,8 +9,6 @@ namespace ClinicTelemetryRegister
   class DataBaseHelper
     {
         public static string connectionString =
-            @"Data Source=(localdb)\MSSQLLocalDB;
-            Initial Catalog=ClinicDeviceDB;
-            Integrated Security=True";
+             @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ClinicDeviceDB;Integrated Security=True;";
     }
 }
